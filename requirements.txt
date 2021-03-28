@@ -1,0 +1,6 @@
+autopep8
+Django
+pep8
+pycodestyle
+pytz
+sqlparse
