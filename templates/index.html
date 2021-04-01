@@ -42,9 +42,9 @@
                       <div class="front"><a href="detail.html"><img src="{% static 'img/product1.jpg' %}" alt="" class="img-fluid"></a></div>
                       <div class="back"><a href="detail.html"><img src="{% static 'img/product1_2.jpg' %}" alt="" class="img-fluid"></a></div>
                     </div>
-                  </div><a href="detail.html" class="invisible"><img src="{% static 'img/product1.jpg' %}" alt="" class="img-fluid"></a>
+                  </div><a href="product/{{product.slug}}" class="invisible"><img src="{% static 'img/product1.jpg' %}" alt="" class="img-fluid"></a>
                   <div class="text">
-                    <h3><a href="detail.html">{{product.title}}</a></h3>
+                    <h3><a href="product/{{product.slug}}">{{product.title}}</a></h3>
                     <p class="price"> 
                       <del></del>R{{product.price}}
                     </p>
